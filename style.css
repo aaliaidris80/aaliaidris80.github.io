@@ -128,3 +128,11 @@ header ul li a{
     background: #017143;
     clip-path: circle(600px at right 800px);
 }
+
+.drink{
+   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+   width: 100%;
+  height: auto;
+}
